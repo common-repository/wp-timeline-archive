@@ -1,0 +1,12 @@
+/* WP Timeline Archive CSS */
+#wp-timeline-archive{font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.5;list-style-image:none;list-style-position:outside;list-style-type:none;margin:0;padding:0;text-align:left;text-indent:0}
+#wp-timeline-archive:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}
+#wp-timeline-archive *{margin:0;padding:0;border:0;outline:0;font-size:100%;background:transparent;outline:0;text-decoration:none;text-shadow:none}
+#wp-timeline-archive .box{display:block;float:left;font-size:0.9em;list-style-type:none;margin:0 2px 2px 0;overflow:hidden;position:relative;text-align:left}
+#wp-timeline-archive .box:before, #wp-timeline-archive .box:before{content:'';content:none}
+#wp-timeline-archive .box a{display:block;background-color:#fff;border:1px solid #ccc;height:75px;overflow:hidden;width:75px}
+#wp-timeline-archive .box.year a{background-color:#263B51;color:#FFF;font-size:2.5em;font-weight:bold;line-height:2.8em;text-align:center}
+#wp-timeline-archive .box.day a{background-color:#CCC;color:#000;font-size:2.5em;font-weight:bold;line-height:2.3em;text-align:center}
+#wp-timeline-archive .box.day a span{display:block;font-size:0.4em;font-weight:normal;line-height:0;margin-top:-12px;text-align:center}
+#wp-timeline-archive .box.post a img{display:none}
+#wp-timeline-archive .box.post a:hover img{background-color:#fff;display:block;height:73px;left:1px;position:absolute;top:1px;width:73px}
